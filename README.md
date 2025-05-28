@@ -1,80 +1,37 @@
-## Hi there 👋
-# Visit https://github.com/lowlighter/metrics#-documentation for full reference
-name: Metrics
-on:
-  # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
-  # Lines below let you run workflow manually and on each commit
-  workflow_dispatch:
-  push: {branches: ["master", "main"]}
-jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          # The following additional scopes may be required:
-          #  - read:org      (for organization related metrics)
-          #  - read:user     (for user related data)
-          #  - read:packages (for some packages related data)
-          #  - repo          (optional, if you want to include private repositories)
-          token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
-          user: 0LinKun
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Shanghai
-          plugin_16personalities: yes
-          plugin_16personalities_scores: yes
-          plugin_16personalities_sections: personality
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
-          plugin_calendar: yes
-          plugin_calendar_limit: 1
-          plugin_discussions: yes
-          plugin_discussions_categories: yes
-          plugin_followup: yes
-          plugin_followup_archived: yes
-          plugin_followup_sections: repositories
-          plugin_habits: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          plugin_habits_languages_limit: 8
-          plugin_habits_languages_threshold: 0%
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
-          plugin_repositories: yes
-          plugin_repositories_order: featured, pinned, starred, random
 <!--
-**0LinKun/0LinKun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ * @Author: royal-killer 1581279688@qq.com
+ * @Date: 2025-05-11 18:14:48
+ * @LastEditors: royal-killer 1581279688@qq.com
+ * @LastEditTime: 2025-05-11 18:33:35
+ * @FilePath: \0LinKun\README.md
+ * @Description: 
+ * 
+ * Copyright (c) 2025 by ${git_name_email}, All Rights Reserved. 
+-->
+<!-- <h1 align="center">Hi 👋, I'm Orange 👨‍💻</h1> -->
 
+
+<!-- 个人简介-->
+<div align="center"><a href="https://blog.000k.de"> <img src="https://readme-typing-svg.herokuapp.com/?lines=屏幕前的生活，不是你我的全部;I'm+big-orange+Welcome+!&center=true&size=27"> </a> </div>
+<h3 align="center">A passionate AI algorithm engineer from Shanghai China</h3>
+
+<br><br>
+<!-- Star 2023-->
+<div align="center"> <img src="https://github.com/heartyang520/HeartYang.github.io/blob/main/share/star.png?raw=true">
+
+<!-- 数据展示-主题&theme=radical-->
+<img width="150" src="https://github.com/heartyang520/HeartYang.github.io/blob/main/share/chibang_left.png?raw=true" />&emsp;
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=0LinKun&theme=radical&hide_border=true" />
+&emsp;<img width="150" src="https://github.com/heartyang520/HeartYang.github.io/blob/main/share/chibang_right.png?raw=true" />
+
+<!-- 展示总贡献量，输出图片颜色不一样-->
+<!-- <div align="center">
+	<img  src="https://streak-stats.demolab.com/?user=0LinKun&theme=gruvbox&border_radius=20&locale=zh_Hans&date_format=%5BY.%5Dn.j" /><br>
+</div> -->
+
+---
+<!--
+**shihuili1218/shihuili1218** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
@@ -86,3 +43,104 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<a href="https://img-blog.csdnimg.cn/2019122617442217.gif">
+  <img align="right"  alt="GIF" src="https://img-blog.csdnimg.cn/2019122617442217.gif" width="150"/>
+</a>
+<div align="left">
+	
+<!-- ### Hello World!  I am <b>chenorange<a target="_blank" href="javascript:;"></a></b> -->
+- :hearts: 富强、民主、文明、和谐: 是从价值目标层面对社会主义核心价值观基本理念的凝练
+  
+- :1st_place_medal: 自由、平等、公正、法治: 是我们党矢志不渝、长期实践的核心价值理念
+
+- :sun_with_face: 爱国、敬业、诚信、友善: 个人行为层面对社会主义核心价值观基本理念的凝练
+
+
+ 
+</div>
+
+<!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/profile-snake-contrib/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+</div>
+
+---
+<!-- GitHub 奖杯🏆 -->
+<div align="center">
+	<img  src="https://github-profile-trophy.vercel.app/?username=0LinKUN&theme=gruvbox&row=1&column=7&no-frame=true&no-bg=true" /><br>
+</div>
+---
+
+<!-- <div align="center"> <img src="https://metrics.lecoq.io/0LinKun?template=classic&config.timezone=Asia%2FShanghai"> </div> -->
+
+---
+
+### About My Github
+<div align="center">
+  <table style="width:100%;">
+    <tr>
+      <!-- 第一个图片 -->
+      <td align="center">
+	  <img height='160' src="https://github-readme-stats.vercel.app/api?username=0LinKun&show_icons=true&theme=tokyonight" align="center" />
+       <!-- <img height='150' weight='100' src="https://github-readme-stats.vercel.app/api?username=0LinKun&hide_title=true&show_icons=true&line_height=21text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" /> -->
+      </td>
+      <!-- 第二个图片 -->
+      <td align="center">
+	<img height='160' src="https://github-readme-stats.vercel.app/api/top-langs/?username=0LinKun&hide=html,css,ruby,javascript,Makefile,Less,TypeScript,Starlark,Groovy,Batchfile&layout=compact&langs_count=8&theme=tokyonight" />
+        <!-- <img height='150' src="https://github-readme-stats.vercel.app/api/top-langs/?username=0LinKun&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" /> -->
+      </td>
+    </tr>
+    <!-- 第三个图片 -->
+    <tr>
+      <td colspan="2" align="center">
+        <img height="220" src="https://github-readme-activity-graph.vercel.app/graph?username=0LinKun&theme=github-compact&hide_border=true&area=true" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+
+<!-- GitHub 数据统计 -->
+<!--
+<div align="left">
+<img align="center" height="117px" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=0LinKun&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
+<!-- <img align="center" height="100px" src="https://github-readme-stats.vercel.app/api?username=0LinKun&hide_title=true&hide_border=true&show_icons=trueline_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" /> -->
+
+<!--
+<img align="center" height="117px" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=0LinKun&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" /><br><br>
+</div> -->
+
+<!-- <div align="center"> <img height="137px" src="https://github-readme-stats.vercel.app/api?username=0LinKun&hide_title=true&hide_border=true&show_icons=trueline_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" /> </div> -->
+
+
+<!-- <div align="left">
+  <img height='160' src="https://github-readme-stats.vercel.app/api?username=0LinKun&show_icons=true&theme=tokyonight" align="center" />
+  <img height='160' src="https://github-readme-stats.vercel.app/api/top-langs/?username=0LinKun&hide=html,css,ruby,javascript,Makefile,Less,TypeScript,Starlark,Groovy,Batchfile&layout=compact&langs_count=8&theme=tokyonight" align="center" />
+</div>  
+<div align="center">
+    <img   width="400" height="180" src="https://github-readme-stats.vercel.app/api?username=0LinKun&hide_title=true&hide_border=true&show_icons=trueline_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
+    <img width="350" height="180" height='120' src="https://github-readme-stats.vercel.app/api/top-langs/?username=0LinKun&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" />
+</div> -->
+
+
+<!-- <div align="center"> <img src="https://activity-graph.herokuapp.com/graph?username=0LinKun&theme=xcode" /> </div> -->
+<!-- <div align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=0LinKun" /> </div>  -->
+
+<H2>Favorite❤️Movie</H2>
+<div align="center">
+<img height="200" src="https://github.com/heartyang520/HeartYang.github.io/blob/main/share/Vlog_a.gif?raw=true">
+</div>
+
+<!-- https://github.com/kyechan99/capsule-render -->
+<p align="center">
+<img  width:100% src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=200&&section=footer&text=THE%20END!&fontSize=90&fontAlign=50&fontAlignY=70&desc=Hope%20your%20program%20is%20bug-free!&descAlign=50&descSize=30&descAlignY=40&animation=twinkling">
+</p>
+
+
+
