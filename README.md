@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm L1nkGr</h1>
 <h3 align="center">A Passionate full-stack developer from Guangzhou China</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=0linkun&label=Profile%20views&color=0e75b6&style=flat" alt="0linkun" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=00ye&label=Profile%20views&color=0e75b6&style=flat" alt="00ye" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=00ye" alt="00ye" /></a> </p>
 
@@ -254,5 +254,5 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=00ye&show_icons=true&locale=en" alt="00ye" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=0linkun&" alt="0linkun" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=00ye&" alt="00ye" /></p>
 
